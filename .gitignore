@@ -1,0 +1,13 @@
+dist/
+
+#logs
+logs/
+
+# Node Files
+node_modules/
+
+# dotenv environment variables file
+.env
+
+# editor config files
+.idea/

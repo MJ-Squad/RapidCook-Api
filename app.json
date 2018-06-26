@@ -1,0 +1,29 @@
+{
+  "name": "rapidcook-api",
+  "scripts": {},
+  "env": {
+    "NODE_ENV": {
+      "required": true
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "value": "true"
+    },
+    "YARN_PRODUCTION": {
+      "value": "true"
+    }
+  },
+  "formation": {
+    "npm": {
+      "quantity": 1
+    },
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
