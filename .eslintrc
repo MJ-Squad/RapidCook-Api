@@ -1,0 +1,9 @@
+{
+  "extends":"airbnb",
+  "rules": {
+    "no-underscore-dangle":0
+  },
+  "env": {
+    "jasmine": true
+  }
+}
