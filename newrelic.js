@@ -9,7 +9,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['SunLead'],
+  app_name: ['RapidCook'],
   /**
    * Your New Relic license key.
    */
